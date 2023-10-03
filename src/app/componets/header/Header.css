@@ -1,0 +1,48 @@
+.container{
+    position:sticky;
+    border: 1px rgb(178, 135, 231);
+    border-radius: 10px;
+    background: linear-gradient(rgba(254, 254, 255, 0), rgb(178, 135, 231));
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.Logo{
+    width:20%;
+}
+button{
+    border: 0px;
+    border-radius: 1px;
+    margin: 2%;
+    width: 110px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.Button{
+    display: flex;
+    align-items: flex-end;
+}
+ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+a{
+    margin: 20px;
+}
+.area-segura{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(118, 7, 238);
+    border: 1px rgb(118, 7, 238);
+    border-radius: 10px;
+    font:bold;
+    font-size: larger;
+    font-style:oblique;
+    font-family: fantasy;
+    margin-right: 20px;
+    color: #f9f7f7;
+}
+
+ 
