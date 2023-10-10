@@ -1,0 +1,35 @@
+.container-card{
+    display: flex;
+    
+}
+.card{
+    max-width: 540px;
+    margin: 10px;
+    border-radius: 5px 30px 30px 5px;
+    background: rgb(224, 170, 245);
+    cursor: pointer;
+    transition: 0.5s;   
+}
+
+.card:hover {
+    background: rgb(187, 67, 235);
+    border-radius: 100px 30px 30px 100px;
+    transition: 0.5s;
+} 
+
+.img-fluid{
+    border-radius: 5px 30px 30px 5px;
+    padding: 2px; 
+    margin-left: 5px;
+    transition: 0.5s;
+    
+}
+
+.card:hover .img-fluid{
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+button{
+    border: 3px brown solid;
+}
