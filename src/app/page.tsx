@@ -12,10 +12,7 @@ export default function Home() {
       <div className="Header">
         <Header />
       </div>
-      <div className="Body">
-        <Slider />
-        <Card />
-      </div>
+      <div className="Body"></div>
       <div>
         <Footer />
       </div>
