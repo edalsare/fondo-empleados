@@ -1,6 +1,6 @@
 
 .Header{
-  position:fixed;
+  position:sticky;
   height: fit-content;
   top: 20px;
   z-index: 10000;

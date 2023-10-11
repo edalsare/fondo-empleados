@@ -1,6 +1,7 @@
 import React from "react";
 import './Header.css'
 import { link } from "fs";
+import Link from "next/link";
 
 const Header = () =>{
     return(
@@ -11,10 +12,10 @@ const Header = () =>{
                 </div>
                 <div className="Button">
                     <ul>
-                        <li><a href="">Servicios</a></li>
-                        <li><a href="">Contactanos</a></li>
-                        <li><a href="">Formularios</a></li>
-                        <li><a href="">PQRS</a></li>
+                        <li><Link href="/">Inicio</Link></li>
+                        <li><Link href="/ahorros">Ahorros</Link></li>
+                        <li><Link href="">Formularios</Link></li>
+                        <li><Link href="">PQRS</Link></li>
                     </ul>
                 </div>
                 <div>

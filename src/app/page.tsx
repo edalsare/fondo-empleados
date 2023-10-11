@@ -9,12 +9,9 @@ import "./globals.css";
 export default function Home() {
   return (
     <div>
-      <div className="Header">
-        <Header />
-      </div>
-      <div className="Body"></div>
-      <div>
-        <Footer />
+      <div className="Body">
+        <Slider />
+        <Card />
       </div>
     </div>
   );

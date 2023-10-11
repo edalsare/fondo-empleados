@@ -46,10 +46,12 @@ a{
     position: relative;
 }
 
-a:hover:after{
+a:hover{
     width: 100%;
     left: 0;
-    background-color: #00fffc;
+    text-decoration:overline #450374;
+    transition: 0.5s;
+    
 }
 
 @media screen and (max-height: 300px) {
