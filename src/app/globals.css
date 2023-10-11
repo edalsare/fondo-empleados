@@ -1,11 +1,12 @@
 
 .Header{
-  position:sticky;
+  position:fixed;
   height: fit-content;
   top: 20px;
   z-index: 10000;
   width: 100%;
   margin-bottom: 5px;
+  
 }
 .Body{
   align-items: center;
