@@ -3,6 +3,7 @@ import Header from './componets/header/Header';
 import Login from './componets/register/form-login/Login';
 import Slider from './componets/slider/Slider';
 import Card from './componets/infromacion/card/card';
+import Footer from './componets/Footer/Footer';
 import './globals.css';
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <div className='Body'>
         <Slider/>
         <Card/>
+        <Footer/>
       </div>      
       
     </div>
