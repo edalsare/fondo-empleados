@@ -13,8 +13,8 @@ const Header = () =>{
                 <div className="Button">
                     <ul>
                         <li><Link className="ah" href="/">Inicio</Link></li>
-                        <li><Link className="ah" href="/ahorros">Ahorros</Link></li>
-                        <li><Link className="ah" href="/pqrs">PQRS</Link></li>
+                        <li><Link className="ah" href="/componets/ahorros">Ahorros</Link></li>
+                        <li><Link className="ah" href="/componets/pqrs">PQRS</Link></li>
                     </ul>
                 </div>
                 <div>

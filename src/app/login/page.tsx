@@ -8,6 +8,7 @@ const Login = () => {
       <div className="row">
         <div className="col-img col">
           <div className="figure">
+          <Link className="icon-home bi bi-house-fill" href="/"></Link>
             <img
               src="/img/login.jpeg"
               className="img-login img-fluid"

@@ -1,7 +1,8 @@
 .container-login {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .figure {
+  margin-left: 10px;
     position: relative;
   background: rgba(188, 4, 224, 0.447);
 }
@@ -62,4 +63,14 @@
   color: white;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.icon-home{
+  margin-top: 20px;
+  margin-left: 20px;
+  position: absolute;
+  z-index: 1;
+  font-size: 60px;
+  color: rgb(250, 249, 252);
+}
+
  
