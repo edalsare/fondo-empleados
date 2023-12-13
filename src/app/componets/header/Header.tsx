@@ -6,7 +6,7 @@ import Link from "next/link";
 const Header = () =>{
     return(
         <div className="Main">
-            <div className="container">
+            <div className="container-header">
                 <div className="Logo">
                     <h1>FonIbero</h1>
                 </div>
@@ -15,11 +15,11 @@ const Header = () =>{
                         <li><Link href="/">Inicio</Link></li>
                         <li><Link href="/ahorros">Ahorros</Link></li>
                         <li><Link href="">Formularios</Link></li>
-                        <li><Link href="">PQRS</Link></li>
+                        <li><Link href="/pqrs">PQRS</Link></li>
                     </ul>
                 </div>
                 <div>
-                    <button className="area-segura">Area Segura</button>
+                    <button className="area-segura"><Link href="/login">Area Segura</Link></button>
                 </div>
             </div>
         </div>
