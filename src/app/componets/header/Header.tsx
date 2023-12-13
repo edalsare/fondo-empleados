@@ -12,14 +12,14 @@ const Header = () =>{
                 </div>
                 <div className="Button">
                     <ul>
-                        <li><Link href="/">Inicio</Link></li>
-                        <li><Link href="/ahorros">Ahorros</Link></li>
-                        <li><Link href="">Formularios</Link></li>
-                        <li><Link href="/pqrs">PQRS</Link></li>
+                        <li><Link className="ah" href="/">Inicio</Link></li>
+                        <li><Link className="ah" href="/ahorros">Ahorros</Link></li>
+                        <li><Link className="ah" href="">Formularios</Link></li>
+                        <li><Link className="ah" href="/pqrs">PQRS</Link></li>
                     </ul>
                 </div>
                 <div>
-                    <button className="area-segura"><Link href="/login">Area Segura</Link></button>
+                    <button className="area-segura"><Link className="ah" href="/login">Area Segura</Link></button>
                 </div>
             </div>
         </div>

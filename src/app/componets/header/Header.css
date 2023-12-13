@@ -36,7 +36,7 @@ li{
     position: relative;
     padding: 15px;
 }
-a{
+.ah{
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -46,7 +46,7 @@ a{
     position: relative;
 }
 
-a:hover{
+.ah:hover{
     width: 100%;
     left: 0;
     text-decoration:overline #450374;

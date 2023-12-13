@@ -1,0 +1,52 @@
+.container-login {
+  margin-top: 30px;
+}
+.figure {
+  background: rgba(188, 4, 224, 0.447);
+}
+
+.img-login {
+  opacity: 0.5;
+  border-radius: 0%;
+}
+
+.datos-login {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.center-text { 
+    display: flex;
+    justify-content: center;
+  align-items: center;
+}
+
+.m-element{
+    margin: 15px;
+}
+
+.t-zize{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.l-input{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.btn-login{
+    width: 30%;
+    background: rgb(175, 133, 227);
+}
+.btn-login:hover{
+    background: rgb(146, 80, 226);
+}
+
+.a-login{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
