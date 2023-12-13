@@ -2,12 +2,13 @@
   margin-top: 30px;
 }
 .figure {
+    position: relative;
   background: rgba(188, 4, 224, 0.447);
 }
 
 .img-login {
   opacity: 0.5;
-  border-radius: 0%;
+  border-radius: 0;
 }
 
 .datos-login {
@@ -50,3 +51,15 @@
     color: black;
     font-weight: bold;
 }
+
+.center{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 

@@ -13,6 +13,7 @@ const Login = () => {
               className="img-login img-fluid"
               alt="..."
             />
+            <div className="center">FonIbero</div>
           </div>
         </div>
         <div className="col">
