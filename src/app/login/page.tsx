@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import "./login.css";
+import "../css/login.css";
 
 const Login = () => {
   return (
@@ -55,7 +55,7 @@ const Login = () => {
             </div>
             <div className="m-element t-zize">
               ¿Eres un nuevo usuario? 
-              <Link className="a-login" href="/"> Regitrate aqui</Link>
+              <Link className="a-login" href="/register"> Regitrate aqui</Link>
               
             </div>
           </div>
