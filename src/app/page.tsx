@@ -1,5 +1,6 @@
 import React from "react";
 import "./globals.css";
+import Footer from "./componets/Footer/Footer";
 
 import Out from "./componets/page";
 

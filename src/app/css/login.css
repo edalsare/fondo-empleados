@@ -1,5 +1,7 @@
 .container-login {
   margin-top: 10px;
+  margin-left: 0px;
+  width: auto;
 }
 .figure {
   margin-left: 10px;

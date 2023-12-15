@@ -13,9 +13,9 @@ export default function RootLayout({
           <Header />
         </div>
         {children}
-        <div>
-          <Footer />
-        </div>
+      </div>
+      <div>
+        <Footer/>
       </div>
     </div>
   );
