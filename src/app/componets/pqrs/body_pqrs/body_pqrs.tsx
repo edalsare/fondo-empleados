@@ -1,3 +1,4 @@
+import { handleChange, saveEmail } from "@/app/scripts/email";
 const Body_pqrs = () => {
   return (
     <div className="container-pqrs-body">
@@ -12,8 +13,9 @@ const Body_pqrs = () => {
               className="form-check-input"
               type="radio"
               name="inlineRadioOptions"
-              id="inlineRadio1"
-              value="option1"
+              id="si"
+              value="SI"
+              onChange={handleChange}
             />
             
           </div>
@@ -22,8 +24,9 @@ const Body_pqrs = () => {
               className="form-check-input"
               type="radio"
               name="inlineRadioOptions"
-              id="inlineRadio2"
-              value="option2"
+              id="no"
+              value="NO"
+              onChange={handleChange}
             />
             <label className="form-check-label" form="inlineRadio2">
               NO
@@ -37,6 +40,8 @@ const Body_pqrs = () => {
               type="text"
               className="borderin form-control"
               aria-label="First name"
+              id="id"
+              onChange={handleChange}
             />
           </div>
         </div>
@@ -47,6 +52,8 @@ const Body_pqrs = () => {
               type="text"
               className="borderin form-control"
               aria-label="First name"
+              id="name"
+              onChange={handleChange}
             />
           </div>
         </div>
@@ -57,6 +64,8 @@ const Body_pqrs = () => {
               type="text"
               className="borderin form-control"
               aria-label="First name"
+              id="lastname"
+              onChange={handleChange}
             />
           </div>
         </div>
@@ -67,6 +76,8 @@ const Body_pqrs = () => {
               type="text"
               className="borderin form-control"
               aria-label="First name"
+              id="tel"
+              onChange={handleChange}
             />
           </div>
         </div>
@@ -77,22 +88,25 @@ const Body_pqrs = () => {
               type="text"
               className="borderin form-control"
               aria-label="First name"
+              id="mail"
+              onChange={handleChange}
             />
           </div>
         </div>
         <div className="col-12">
           <div className="form-floating">
-            <textarea
+            <input
               className="area form-control"
               placeholder=" "
-              id="floatingTextarea2"
+              id="coment"
+              onChange={handleChange}
               style={{ height: "150px" }}
-            ></textarea>
+            ></input>
             <label>Comments</label>
           </div>
         </div>
         <div className="col-boton col-12 align-self-end">
-        <button type="button" className="btn1 btn btn-lg">ENVIAR</button>
+        <button type="button" className="btn1 btn btn-lg" onClick={saveEmail}>ENVIAR</button>
         </div>
       </div>
     </div>

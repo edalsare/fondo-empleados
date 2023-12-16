@@ -1,4 +1,7 @@
-import React from "react";
+'use client'
+import React, {useContext, useState} from "react";
+import { Context } from "../Context/userContext";
+import { User, UserContextState } from "../Types/user";
 import Link from "next/link";
 import "../css/login.css";
 import "./myhome.css";

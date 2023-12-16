@@ -3,6 +3,7 @@ import React from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import "../css/login.css";
+import { handleChange, saveUser } from "../scripts/usario";
 
 const Register = () => {
   const click = useRouter()
@@ -42,8 +43,9 @@ const Register = () => {
                 <input
                   type="email"
                   className="l-input form-control"
-                  id="floatingInput"
+                  id="correo"
                   placeholder="name@example.com"
+                  onChange={handleChange}
                 />
                 <label form="floatingInput">
                   <h3 className="bi bi-envelope-at-fill"></h3>
@@ -58,8 +60,9 @@ const Register = () => {
                     <input
                       type="text"
                       className="l-input form-control"
-                      id="floatingInput"
+                      id="identificacion"
                       placeholder="identifiacion"
+                      onChange={handleChange}
                     />
                     <label form="floatingInput">
                       <h3 className="bi bi-hash"></h3>
@@ -74,8 +77,9 @@ const Register = () => {
                     <input
                       type="text"
                       className="l-input form-control"
-                      id="floatingInput"
+                      id="usuario"
                       placeholder="usuario"
+                      onChange={handleChange}
                     />
                     <label form="floatingInput">
                       <h3 className="bi bi-person-fill"></h3>
@@ -90,8 +94,9 @@ const Register = () => {
                     <input
                       type="password"
                       className="l-input form-control"
-                      id="floatingInput"
+                      id="contraseña"
                       placeholder="pasword"
+                      onChange={handleChange}
                     />
                     <label form="floatingInput">
                       <h3 className="bi bi-fingerprint"></h3>
@@ -108,6 +113,7 @@ const Register = () => {
                       className="l-input form-control"
                       id="floatingInput"
                       placeholder="password"
+                      onChange={handleChange}
                     />
                     <label form="floatingInput">
                       <h3 className="bi bi-unlock-fill"></h3>
@@ -118,7 +124,7 @@ const Register = () => {
             </div>
 
             <div className="m-element">
-              <button type="button" className="btn btn-login btn-lg" onClick={myhome}>
+              <button type="button" className="btn btn-login btn-lg" onClick={saveUser}>
                 Continuar
               </button>
             </div>

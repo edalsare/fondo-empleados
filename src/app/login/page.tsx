@@ -1,8 +1,14 @@
-import React from "react";
+'use client'
+import React,{useContext, useState} from "react";
+import axios from "axios";
+import { useRouter } from "next/navigation";
+import { UserContextState } from "../Types/user";
 import Link from "next/link";
 import "../css/login.css";
+import { handleChange, saveUser } from "../scripts/login";
 
 const Login = () => {
+ 
   return (
     <div className="container-login">
       <div className="row">
@@ -31,10 +37,11 @@ const Login = () => {
             <div className="center-text m-element">
               <div className="form-floating mb-3">
                 <input
-                  type="email"
+                  type="text"
                   className="l-input form-control"
-                  id="floatingInput"
+                  id="usuario"
                   placeholder="name@example.com"
+                  onChange={handleChange}
                 />
                 <label form="floatingInput"><h5 className="bi bi-person-fill">Usuario</h5></label>
               </div>
@@ -42,16 +49,17 @@ const Login = () => {
             <div className="center-text m-element">
             <div className="form-floating mb-3">
                 <input
-                  type="email"
+                  type="password"
                   className="l-input form-control"
-                  id="floatingInput"
+                  id="contraseña"
                   placeholder="name@example.com"
+                  onChange={handleChange}
                 />
                 <label form="floatingInput"><h5 className="bi bi-fingerprint">Contraseña</h5></label>
               </div>
             </div>
             <div className="center-text m-element">
-            <button type="button" className="btn btn-login btn-lg">Ingresar</button>
+            <button type="button" className="btn btn-login btn-lg" onClick={saveUser}>Ingresar</button>
             </div>
             <div className="m-element t-zize">
               ¿Eres un nuevo usuario? 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "./globals.css";
 import Footer from "./componets/Footer/Footer";
 
